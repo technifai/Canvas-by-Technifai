@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live Room</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar glass-bar">
+  <div>
+    <strong>Technifai Live</strong><br>
+    <small id="roomInfo"></small>
+  </div>
+  <div>
+    <button id="shareBtn">Invite</button>
+    <span id="userCount"></span>
+  </div>
+</div>
+
+<div class="canvas-wrapper">
+  <canvas id="canvas"></canvas>
+  <div id="cursorLayer"></div>
+</div>
+
+<div id="notificationContainer"></div>
+
+<script type="module" src="js/protect.js"></script>
+<script type="module" src="js/room.js"></script>
+</body>
+</html>
